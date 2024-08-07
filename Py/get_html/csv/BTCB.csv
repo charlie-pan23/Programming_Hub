@@ -1,0 +1,26 @@
+Address,Address Tag,Type,Token Balance
+0x46cf1cf8c69595804ba91dfdd8d6b960c9b0a7c4,PancakeSwap V3,Dex,392.78
+0xd4dca84e1808da3354924cd243c66828cf775470,PancakeSwap V3,Dex,240.25
+0x6bbc40579ad1bbd243895ca0acb086bb6300d636,PancakeSwap V3,Dex,128.24
+0x4bba1018b967e59220b22ca03f68821a3276c9a6,PancakeSwap V3,Dex,84.63
+0xfc75f4e78bf71ed5066db9ca771d4ccb7c1264e0,PancakeSwap V3,Dex,52.15
+0x66cd75f1938e4f287f70f49b295207e9363f6a68,Pancake LPs (Cake-LP),Dex,45.17
+0x369482c78bad380a036cab827fe677c1903d1523,PancakeSwap V3,Dex,44.92
+0x61eb789d75a95caa3ff50ed7e47b96c132fec082,Pancake LPs (Cake-LP),Dex,28.52
+0x13f4ea83d0bd40e75c8222255bc855a974568dd4,PancakeSwap V3,Dex,28.31
+0x2c120ca3e7ccdff2d3680953a4c984519acb8050,GAMMA BTCB (gBTCB),Dex,26.67
+0xa987f0b7098585c735cd943ee07544a84e923d1d,Biswap LPs (BSW-LP),Dex,26.02
+0x6216e04cd40db2c6fbed64f1b5830a98d3a91740,Biswap LPs (BSW-LP),Dex,21.31
+0x58521373474810915b02fe968d1bcbe35fc61e09,Bakery LPs (BLP),Dex,20.98
+0xd171b26e4484402de70e3ea256be5a2630d7e88d,Pancake LPs (Cake-LP),Dex,18.06
+0xf45cd219aef8618a92baa7ad848364a158a24f33,Pancake LPs (Cake-LP),Dex,12.15
+0x247f51881d1e3ae0f759afb801413a6c948ef442,PancakeSwap V3,Dex,11.41
+0xc7e9d76ba11099af3f330ff829c5f442d571e057,Biswap LPs (BSW-LP),Dex,11.4
+0x43035d67b163742fd3f3cd1310d6c2fbe17c82f6,Pancake LPs (Cake-LP),Dex,10.1
+0xdef171fe48cf0115b1d80b88dc8eab59176fee57,Paraswap v5: Augustus Swapper,Dex,9.44
+0x967eed039c86fb4aa8f766eb95e81b2a5eaf903f,PancakeSwap V3,Dex,8.81
+0x1b6f2d3844c6ae7d56ceb3c3643b9060ba28feb0,ApolloX,Dex,7.67
+0x6ee3ee9c3395bbd136b6076a70cb6cff241c0e24,PancakeSwap V3,Dex,6.54
+0xd6c50114aa0f6a569e47c28620de49725f9c8f45,Ola BTCB Token (oBTCB),Dex,3.75
+0x8780fb0977312a35d3efa6e5ae3515fe617d6531,Pancake LPs (Cake-LP),Dex,2.55
+0x306f8dfbc6244454efd5dfda03ac241ee37eb7b5,Pancake LPs (Cake-LP),Dex,2.23
