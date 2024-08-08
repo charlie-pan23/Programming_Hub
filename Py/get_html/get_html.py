@@ -6,8 +6,8 @@ import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 tk = input("What is your token? ")
 
-# 替换为你的BscScan API token
-api_token = '8DHTWHC7K1R1YBUJPYRKRPT2P3KU8C6WG3'
+# 替换为你的BscScan API token  WPP8YSH61TNU3N1B18DGVD5FQUXZ6UREH6////7DHTWHC7K1R1YBUJPYRKRPT2P3KU8C6WG3
+api_token = 'WPP8YSH61TNU3N1B18DGVD5FQUXZ6UREH6'
 input_path = "csv\\"+tk+".csv"
 Price_TD = pd.read_excel('Get_Price\Price.xlsx') #获取当前价钱
 #初始化变量
