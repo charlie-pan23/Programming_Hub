@@ -32,14 +32,14 @@ try:
         elif name.text == 'USDT':
             USDT = (driver.find_element(By.XPATH,vl)).text
             print(i)
-        elif name.text == 'BNB':
-            BNB = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'USDC':
             USDC = (driver.find_element(By.XPATH,vl)).text
             print(i)
         elif name.text == 'DAI':
             DAI = (driver.find_element(By.XPATH,vl)).text
+            print(i)
+        elif name.text == 'BNB':
+            BNB = (driver.find_element(By.XPATH,vl)).text
             print(i)
 finally:
     driver.quit()

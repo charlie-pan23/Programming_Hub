@@ -3,18 +3,18 @@ import datetime
 import pandas as pd
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
+import time
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 tk = input("What is your token? ")
 
-# 替换为你的BscScan API token  WPP8YSH61TNU3N1B18DGVD5FQUXZ6UREH6////7DHTWHC7K1R1YBUJPYRKRPT2P3KU8C6WG3
-api_token = 'WPP8YSH61TNU3N1B18DGVD5FQUXZ6UREH6'
+# 替换为你的BscScan API token  WPP8YSH61TNU3N1B18DGVD5FQUXZ6UREH6////8DHTWHC7K1R1YBUJPYRKRPT2P3KU8C6WG3
+api_token = '8DHTWHC7K1R1YBUJPYRKRPT2P3KU8C6WG3'
 input_path = "csv\\"+tk+".csv"
 Price_TD = pd.read_excel('Get_Price\Price.xlsx') #获取当前价钱
 #初始化变量
 contract_address = '0x'
 price = 1.00
 
-# '''
 if tk=="BTCB":
     contract_address = '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c'
 elif tk=="ETH":
@@ -44,7 +44,10 @@ def fetch_transactions(address):
     page = 1
     while True:
         # 构建API请求URL
-        url = f'https://api.bscscan.com/api?module=account&action=tokentx&address={address}&contractaddress={contract_address}&page={page}&offset=10&sort=desc&apikey={api_token}'
+        if tk=="BNB":
+            url = f'https://api.bscscan.com/api?module=account&action=txlist&address={address}&startblock=0&endblock=99999999&page={page}&offset=10&sort=desc&apikey={api_token}'
+        else:
+            url = f'https://api.bscscan.com/api?module=account&action=tokentx&address={address}&contractaddress={contract_address}&page={page}&offset=10&sort=desc&apikey={api_token}'
 
         # 发送请求
         response = requests.get(url)
@@ -63,12 +66,13 @@ def fetch_transactions(address):
                         timestamp = int(tx['timeStamp'])
                         date_time = datetime.datetime.utcfromtimestamp(timestamp)  # 转换为UTC时间
                         tx_hash = tx['hash']  # 获取交易哈希
-                        txn_type = 'in' if tx['to'] == address else 'out'  # 判断交易类型
+                        txn_type = 'in' if tx['to'] == address else 'out'  # 判断交易类型{tx['tokenSymbol']}
                         print(
-                            f"Date (UTC): {date_time} From: {tx['from']} To: {tx['to']} Value: {value} {tx['tokenSymbol']} Hash: {tx_hash}")
+                            f"Date (UTC): {date_time} From: {tx['from']} To: {tx['to']} Value: {value}  Hash: {tx_hash}")
 
                         return address, date_time, tx_hash, value, tx['from'], tx['to'], txn_type
                 page += 1
+                time.sleep(0.2)
             else:
                 print(f"Error: {data['message']}")
                 break
@@ -113,4 +117,5 @@ df.to_csv(input_path, index=False)
 # USDT-0x55d398326f99059ff775485246999027b3197955
 # USDC-0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d
 # ETH -0x2170ed0880ac9a755fd29b2688956bd959f933f8
-# '''
+
+
