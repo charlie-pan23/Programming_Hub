@@ -1,0 +1,4 @@
+ETH:https://scan.0xscope.com/whaleWatch/0x0000000000000000000000000000000000000000?network=base&name=null
+DAI:https://scan.0xscope.com/whaleWatch/0x50c5725949a6f0c72e6c4a641f24049a917db0cb?network=base&name=null
+WETH:https://scan.0xscope.com/whaleWatch/0x4200000000000000000000000000000000000006?network=base&name=null
+USDC:https://scan.0xscope.com/whaleWatch/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913?network=base&name=null

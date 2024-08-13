@@ -1,0 +1,59 @@
+Address,Address Tag,Type,Token Balance,Percentage
+0xbe0eb53f46cd790cd13851d5eff43d12404d33e8,Binance 7 Cold Wallet,Exchange,"1,996,008.38",1.45%
+0xda9dfa130df4de4673b89022ee50ff26f6ea73cf,Kraken 13,Exchange,"848,923.56",0.61%
+0x47ac0fb4f2d84898e4d9e7b4dab3c24507a6d503,Binance: Binance-Peg Tokens,Exchange,"584,999.05",0.42%
+0xf977814e90da44bfa03b6295a0616a897441acec,Binance 8,Exchange,"453,264.68",0.32%
+0xe92d1a43df510f82c66382592a047d288f85226f,Bitfinex 19,Exchange,"450,118.32",0.32%
+0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea,Gemini 3 Cold Wallet,Exchange,"369,498.96",0.26%
+0x8103683202aa8da10536036edef04cdd865c225e,Bitfinex 20,Exchange,"275,000.03",0.19%
+0xc61b9bb3a7a0767e3179713f3a5c7a9aedce193c,Bitfinex: MultiSig 3,Exchange,"268,053.76",0.19%
+0x539c92186f7c6cc4cbf443f26ef84c595babbca1,OKx,Exchange,"250,000.00",0.18%
+0x868dab0b8e21ec0a48b726a1ccf25826c78c6d7f,OKx,Exchange,"250,000.00",0.18%
+0xbfbbfaccd1126a11b8f84c60b09859f80f3bd10f,OKx,Exchange,"250,000.00",0.18%
+0xf3b0073e3a7f747c7a38b36b805247b222c302a3,Crypto.com,Exchange,"182,517.74",0.13%
+0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0,Kraken 4,Exchange,"159,921.59",0.11%
+0xc882b111a75c0c657fc507c04fbfcd2cc984f071,Gate.io,Exchange,"123,095.24",0.08%
+0x558553d54183a8542f7832742e7b4ba9c33aa1e6,Bithumb 12,Exchange,"110,000.75",0.07%
+0x4fdd5eb2fb260149a3903859043e962ab89d8ed4,Bitfinex 5,Exchange,"100,116.88",0.07%
+0xc56fefd1028b0534bfadcdb580d3519b5586246e,Bitfinex 11,Exchange,"95,263.26",0.06%
+0xf7858da8a6617f7c6d0ff2bcafdb6d2eedf64840,OKx,Exchange,"85,474.49",0.06%
+0xa7efae728d2936e78bda97dc267687568dd593f3,OKx 3,Exchange,"84,851.78",0.06%
+0xbf94f0ac752c739f623c463b5210a7fb2cbb420b,OKx,Exchange,"84,832.82",0.06%
+0xd6216fc19db775df9774a6e33526131da7d19a2c,KuCoin 6,Exchange,"83,049.95",0.06%
+0x742d35cc6634c0532925a3b844bc454e4438f44e,Bitfinex 2,Exchange,"78,501.88",0.05%
+0x1e2fcfd26d36183f1a5d90f0e6296915b02bcb40,Coinone 2,Exchange,"63,817.54",0.04%
+0x28c6c06298d514db089934071355e5743bf21d60,Binance 14,Exchange,"60,934.67",0.04%
+0xd69b0089d9ca950640f5dc9931a41a5965f00303,Gemini 7,Exchange,"60,659.87",0.04%
+0x904cc2b2694ffa78f04708d6f7de205108213126,Deribit,Exchange,"58,000.00",0.04%
+0x98ec059dc3adfbdd63429454aeb0c990fba4a128,OKx 6,Exchange,"50,000.10",0.03%
+0x6b378be3c9642ccf25b1a27facb8ace24ac34a12,Deribit 5,Exchange,"49,999.99",0.03%
+0xcfee6efec3471874022e205f4894733c42cbbf64,Deribit 7,Exchange,"47,489.99",0.03%
+0xee5b5b923ffce93a870b3104b7ca09c3db80047a,bybit,Exchange,"42,341.48",0.03%
+0xe25a329d385f77df5d4ed56265babe2b99a5436e,Paxos: Treasury,Exchange,"41,205.43",0.02%
+0x062448f804191128d71fc72e10a1d13bd7308e7e,Deribit 3,Exchange,"39,999.97",0.02%
+0xc365c3315cf926351ccaf13fa7d19c8c4058c8e1,Binance Pool,Exchange,"38,808.44",0.02%
+0x06a0048079ec6571cd1b537418869cde6191d42d,Binance 29,Exchange,"37,913.56",0.02%
+0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec,Bitfinex: Hot Wallet,Exchange,"35,914.17",0.02%
+0x0b73f67a49273fc4b9a65dbd25d7d0918e734e63,Bitfinex 12,Exchange,"34,740.37",0.02%
+0x6262998ced04146fa42253a5c0af90ca02dfd2a3,Crypto.com,Exchange,"34,576.73",0.02%
+0x111cff45948819988857bbf1966a0399e0d1141e,bitFlyer,Exchange,"32,680.63",0.02%
+0xf2d4766ad705e3a5c9ba5b0436b473085f82f82f,Coinhako: Warm Wallet,Exchange,"32,138.67",0.02%
+0xa0f6121319a34f24653fb82addc8dd268af5b9e1,Deribit 2,Exchange,"30,000.00",0.02%
+0xa7e15ef7c01b58ebe5ef74aa73625ae4b11fe754,Deribit 4,Exchange,"30,000.00",0.02%
+0xf89d7b9c864f589bbf53a82105107622b35eaa40,Bybit,Exchange,"23,457.59",0.01%
+0xcffad3200574698b78f32232aa9d63eabd290703,Crypto.com 5,Exchange,"21,085.76",0.01%
+0x1c4b70a3968436b9a0a9cf5205c787eb81bb558c,Gate.io 3,Exchange,"20,027.26",0.01%
+0xdfd5293d8e347dfe59e90efd55b2956a1343963d,Binance 16,Exchange,"19,417.74",0.01%
+0x46340b20830761efd32832a74d7169b29feb9758,Crypto.com 2,Exchange,"18,355.42",0.01%
+0x5a52e96bacdabb82fd05763e25335261b270efcb,Binance 28,Exchange,"17,799.71",0.01%
+0x21a31ee1afc51d94c2efccaa2092ad1028285549,Binance 15,Exchange,"17,130.65",0.01%
+0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511,Coinbase 5,Exchange,"17,117.00",0.01%
+0x9696f59e4d72e237be84ffd425dcad154bf96976,Binance 18,Exchange,"15,345.53",0.01%
+0x4976a4a02f38326660d17bf34b431dc6e2eb2327,Binance 20,Exchange,"14,631.03",0.01%
+0x5f397b62502e255f68382791947d54c4b2d37f09,Deribit 8,Exchange,"13,062.38",0.00%
+0x0cd76cd43992c665fdc2d8ac91b935ca3165e782,Bitfinex,Exchange,"12,284.33",0.00%
+0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23,KuCoin 15,Exchange,"11,999.60",0.00%
+0x56eddb7aa87536c09ccc2793473599fd21a8b17f,Binance 17,Exchange,"11,657.00",0.00%
+0xcd531ae9efcce479654c4926dec5f6209531ca7b,Coinbase Prime,Exchange,"10,838.14",0.00%
+0x3cc936b795a188f0e246cbb2d74c5bd190aecf18,Mexc.com 3,Exchange,"10,736.41",0.00%
+0xd03be958e6b8da2d28ac8231a2291d6e4f0a7ea7,Korbit 4,Exchange,"10,544.23",0.00%

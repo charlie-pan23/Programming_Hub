@@ -1,0 +1,14 @@
+Address,Address Tag,Type,Token Balance,Percentage
+0xf977814e90da44bfa03b6295a0616a897441acec,Binance 8,Exchange,"2,056,444,173.93",78.13%
+0xb38e8c17e38363af6ebdcb3dae12e0243582891d,Binance Hot Wallet,Exchange,"86,273,928.77",3.27%
+0xf89d7b9c864f589bbf53a82105107622b35eaa40,Bybit: Hot Wallet,Exchange,"28,548,687.77",1.08%
+0x8f9c79b9de8b0713dcac3e535fc5a1a92db6ea2d,kraken,Exchange,"8,173,897.79",0.31%
+0x0d0707963952f2fba59dd06f2b425ace40b492fe,Gate.io,Exchange,"7,325,732.05",0.27%
+0x62383739d68dd0f844103db8dfb05a7eded5bbe6,OKx,Exchange,"3,385,355.48",0.12%
+0x9b64203878f24eb0cdf55c8c6fa7d08ba0cf77e5,MEXC,Exchange,"2,077,500.86",0.07%
+0x1714400ff23db4af24f9fd64e7039e6597f18c2b,Crypto.com,Exchange,"1,621,512.39",0.06%
+0x18709e89bd403f470088abdacebe86cc60dda12e,Huobi,Exchange,"899,734.36",0.03%
+0x477b8d5ef7c2c42db84deb555419cd817c336b6f,MaiCoin 1,Exchange,"820,049.37",0.03%
+0x2487cb1a359c942312259bbc64a01cee32e9f539,Woo Network,Exchange,"445,366.22",0.01%
+0x983873529f95132bd1812a3b52c98fb271d2f679,AscendEX,Exchange,"260,335.81",0.00%
+0x4207837d4cd914467eb76bf88c4d6e7ba11ccdf9,Coinspot,Exchange,"79,579.15",0.00%

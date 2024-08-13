@@ -1,0 +1,7 @@
+ETH:https://scan.0xscope.com/whaleWatch/0x0000000000000000000000000000000000000000?network=op&name=null
+WETH:https://scan.0xscope.com/whaleWatch/0x4200000000000000000000000000000000000006?network=op&name=null
+USDT:https://scan.0xscope.com/whaleWatch/0x94b008aa00579c1307b0ef2c499ad98a8ce58e58?network=op&name=null
+USDC:https://scan.0xscope.com/whaleWatch/0x0b2c639c533813f4aa9d7837caf62653d097ff85?network=op&name=null
+WBTC:https://scan.0xscope.com/whaleWatch/0x68f180fcce6836688e9084f035309e29bf0a2095?network=op&name=null
+DAI:https://scan.0xscope.com/whaleWatch/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1?network=op&name=null
+Optimism:https://scan.0xscope.com/whaleWatch/0x4200000000000000000000000000000000000042?network=op&name=OP

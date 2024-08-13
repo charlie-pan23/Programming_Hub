@@ -1,0 +1,7 @@
+    "ETH": "https://scan.0xscope.com/whaleWatch/0x0000000000000000000000000000000000000000?network=eth&name=null",
+    "WETH": "https://scan.0xscope.com/whaleWatch/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2?network=eth&name=null",
+    "WBTC": "https://scan.0xscope.com/whaleWatch/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599?network=eth&name=null",
+    "DAI": "https://scan.0xscope.com/whaleWatch/0x6b175474e89094c44da98b954eedeac495271d0f?network=eth&name=DAI",
+    "USDT": "https://scan.0xscope.com/whaleWatch/0xdac17f958d2ee523a2206206994597c13d831ec7?network=eth&name=null",
+    "BNB": "https://scan.0xscope.com/whaleWatch/0xb8c77482e45f1f44de1745f52c74426c631bdd52?network=eth&name=null",
+    "USDC": "https://scan.0xscope.com/whaleWatch/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48?network=eth&name=null"

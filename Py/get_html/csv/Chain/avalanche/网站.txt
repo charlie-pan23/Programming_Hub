@@ -1,0 +1,6 @@
+WETH:https://scan.0xscope.com/whaleWatch/0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab?network=avax&name=null
+USDT:https://scan.0xscope.com/whaleWatch/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7?network=avax&name=null
+USDC:https://scan.0xscope.com/whaleWatch/0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e?network=avax&name=null
+AVAX:https://scan.0xscope.com/whaleWatch/0x0000000000000000000000000000000000000000?network=avax&name=null
+WBTC:https://scan.0xscope.com/whaleWatch/0x50b7545627a5162f82a992c33b87adc75187b218?network=avax&name=null
+DAI:https://scan.0xscope.com/whaleWatch/0xd586e7f844cea2f87f50152665bcbc2c279d8d70?network=avax&name=null
