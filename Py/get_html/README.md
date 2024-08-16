@@ -26,6 +26,7 @@ get_html包 能够追踪按照格式放入.csv文件的地址，并在原始表�
 ## 数据来源
 追踪数据来自:BSC: https://bscscan.com/      
             Matic: https://polygonscan.com/
+            ETH: https://etherscan.io/
 实时汇率来自：https://www.coingecko.com/
 
 
@@ -33,6 +34,6 @@ get_html包 能够追踪按照格式放入.csv文件的地址，并在原始表�
 * 部分大额转账被分成多笔小额转账可能会错过追踪。
 * Get_Price需要打开代理才能使用。
 * 在使用免费API时，有每秒至多五次请求和每天查询100,000条数据的限制，数据量大时搜索速度极慢。
-* 一些没有专门的区块链浏览器的链上的交易，难以追踪。
+* 雪崩链暂不兼容这个方法
 
 

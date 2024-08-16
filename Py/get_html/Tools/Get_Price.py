@@ -4,13 +4,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from openpyxl import load_workbook
 import os
+import time
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 respath = "Price.xlsx"
 # D:\Programming_Hub\Py\Get_Price\
 target_web = "https://www.coingecko.com/"
 
-BTCB = ETH = USDT = BNB = SOL = USDC = WBTC = AVAX = DAI = MATIC = 0.0000001
+BTCB = ETH = USDT = BNB = SOL = USDC = WBTC = AVAX = DAI = MATIC = WETH = 0.0000001
 
 try:
     driver = webdriver.Chrome()
@@ -25,34 +26,38 @@ try:
 
         if name.text == 'BTC':
             BTCB =(driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'ETH':
             ETH = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'USDT':
             USDT = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'BNB':
             BNB = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'SOL':
             SOL = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'USDC':
             USDC = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'WBTC':
             WBTC = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'AVAX':
             AVAX = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'DAI':
             DAI = (driver.find_element(By.XPATH,vl)).text
-            print(i)
         elif name.text == 'MATIC':
             MATIC = (driver.find_element(By.XPATH,vl)).text
-            print(i)
+
+finally:
+    driver.quit()
+
+time.sleep(3)
+
+try:
+    driver = webdriver.Chrome()
+    driver.minimize_window()
+    driver.get("https://www.coingecko.com/en/coins/weth")
+    wait = WebDriverWait(driver, 10)
+    WETH = (driver.find_element(By.XPATH,"/html/body/div[2]/main/div/div[2]/div[4]/div/div[1]/div[2]/div[1]/span")).text
+    WETH = WETH.replace("$", "").replace(",", "")
+    WETH = float(WETH)
 
 finally:
     driver.quit()
@@ -81,6 +86,7 @@ AVAX = float(AVAX)
 DAI = float(DAI)
 MATIC = float(MATIC)
 
+
 # 使用openpyxl加载现有的Excel文件
 workbook = load_workbook(filename=respath)
 sheet = workbook['Price_TD']
@@ -95,6 +101,7 @@ sheet['B8'] = WBTC
 sheet['B9'] = AVAX
 sheet['B10'] = DAI
 sheet['B11'] = MATIC
+sheet['B12'] = WETH
 # 保存修改后的文件
 workbook.save(filename=respath)
-
+print("Updated!")

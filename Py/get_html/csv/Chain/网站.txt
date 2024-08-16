@@ -1,0 +1,7 @@
+arbitrum: https://arbiscan.io/
+avalanche: https://subnets.avax.network/
+base: https://basescan.org/
+bsc: https://bscscan.com/
+eth: https://etherscan.io/
+optimism: https://www.optimism.io/
+polygon: https://polygonscan.com/
