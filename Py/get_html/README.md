@@ -24,11 +24,14 @@ get_html包 能够追踪按照格式放入.csv文件的地址，并在原始表�
 
 
 ## 数据来源
-追踪数据来自:BSC: https://bscscan.com/      
-            Matic: https://polygonscan.com/
-            ETH: https://etherscan.io/
-实时汇率来自：https://www.coingecko.com/
+追踪数据来自:         
+BSC: https://bscscan.com/      
+Matic: https://polygonscan.com/           
+ETH: https://etherscan.io/
 
+汇率来自：https://www.coingecko.com/
+
+注：交易金额较大的BSC、Matic和Ether都已经完成爬取，Base、Arbitrum和Optimism可以直接套用模板，而AVAX还需进一步探索。
 
 ## 存在问题
 * 部分大额转账被分成多笔小额转账可能会错过追踪。
