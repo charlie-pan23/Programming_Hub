@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 public class YIQtoRGB {
     public static void main(String[] args) {
@@ -17,4 +18,9 @@ public class YIQtoRGB {
         System.out.printf("red = %d\ngreen = %d\nblue = %d%n", r, g, b);
 
     }
+=======
+package PACKAGE_NAME;
+
+public class YIQtoRGB {
+>>>>>>> refs/remotes/origin/main
 }
