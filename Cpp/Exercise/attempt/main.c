@@ -1,6 +1,10 @@
 #include <stdio.h>
-
-int main(void) {
-    printf("Hello, World!\n");
-    return 0;
+#define MAX 100
+void main() {
+    int x;
+    x = 1;
+    while (x <= MAX) {
+        printf("%d\n", x);
+        x++;
+    }
 }

@@ -9,6 +9,7 @@
 -----
 
 ## 1. Overview      
+
 *We treat Computer Systems as a study of the interaction of hardware and software which determines the performance of computer systems.*
 
 **Four architectural levels of computer systems**
@@ -84,7 +85,7 @@ A by-product of the microprocessor revolution, which allowed all users to have f
     - Data that is being manipulated
 
 ### 2.2 Von Neumann Model
-**John Von Neumann**               
+**John Von Neumann**
 An Austria-Hungary-born American mathematician. Made contributions to: quantum physics, functional analysis, set theory, topology, economics, computer science, numerical analysis, hydrodynamics.
 ![alt text](2.2.1.png)
 
@@ -94,22 +95,17 @@ An Austria-Hungary-born American mathematician. Made contributions to: quantum p
 - The fact that **memory is re-writeable** makes a von Neumann machine especially powerful.
 - A processor is an active part of the machine that executes the program instructions.
 
-**Von Neumann bottleneck**       
+**Von Neumann bottleneck**
 CPU is continuously forced to wait for vital data (and instructions) to be transferred to or from memory.
 
 ![alt text](2.2.2.png)
 [原文链接](https://blog.csdn.net/guojunxiu/article/details/79942905)
 
 ### 2.3 Harvard architecture
+
 ![alt text](2.3.1.png)
+
 - Separates data from programs.
 - Requires different memories and access buses for programs and data.
 
 [为什么电脑还沿用冯·诺伊曼结构而不使用哈佛结构](https://www.zhihu.com/question/22406681)
-
-
-
-
-
-
-

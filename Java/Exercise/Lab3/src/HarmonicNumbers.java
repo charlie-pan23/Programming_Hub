@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import java.util.Scanner;
 public class HarmonicNumbers {
     public static void main(String[] args) {
@@ -13,9 +13,3 @@ public class HarmonicNumbers {
     }
 
 }
-=======
-package PACKAGE_NAME;
-
-public class HarmonicNumbers {
-}
->>>>>>> refs/remotes/origin/main
