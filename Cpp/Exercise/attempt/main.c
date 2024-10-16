@@ -1,16 +1,19 @@
 #include <stdio.h>
-int n;
-int main()
-{
-    scanf("%d",&n);
-    for (int i=1;i<=n;i++){
-        for (int j=n;j<i-1;j++) {
-            printf(" ");
-        }
-        for (int k=0;k<2*i-1;k++) {
-            printf("*");
-        }
-        printf("\n");
+
+int fact(int n) {
+    int sum = 1;
+    if (n == 0 || n == 1) {
+        return 1;
+    }    //return n * fact(n - 1);
+        for (int i = 2; i <= n; i++) {
+            sum *= i;
     }
-    return 0;
+        return sum;
 }
+
+int main() {
+        printf("%d\n", fact(3));
+        printf("%d\n", fact(4));
+        printf("%d\n", fact(1));
+        return 0;
+    }
