@@ -63,25 +63,29 @@ public class SimpleSet {
     public static void DisplayAverage(int size) {
         System.out.println("[Item:Average]");
         double currentsum = 0;
+        double currentavr = 0;
         int maxavr = 0;
         for (int i = 1; i < size + 1; i++) {
             currentsum += elements[i - 1];
-            currentsum /= i;
-            if (currentsum > maxavr) {
-                maxavr = (int) Math.floor(currentsum);
+            currentavr = currentsum / i;
+            if (currentavr > maxavr) {
+                maxavr = (int) Math.floor(currentavr);
             }
         }
+        currentsum = 0;
+        currentavr = 0;
+
         for (int i = 1; i < size + 1; i++) {
             currentsum += elements[i - 1];
-            currentsum /= i;
-            System.out.printf("[\t%d:\t%-10.3f] ", i, currentsum);
-            for (int j = 0; j < Math.floor(currentsum); j++) {
+            currentavr = currentsum / i;
+            System.out.printf("[\t%d:\t%-10.3f] ", i, currentavr);
+            for (int j = 0; j < Math.floor(currentavr); j++) {
                 System.out.print("+");
             }
-            for (int j = 0; j < maxavr - Math.floor(currentsum) + 2; j++) {
+            for (int j = 0; j < maxavr - Math.floor(currentavr) + 2; j++) {
                 System.out.print(" ");
             }
-            System.out.println("\t|");
+            System.out.println("|");
         }
     }
 
