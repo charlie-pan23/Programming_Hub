@@ -61,8 +61,6 @@ public class SimpleSet {
     }
 
     public static void DisplayAverage(int size) {
-
-
         System.out.println("[Item:Average]");
         double currentsum = 0;
         int maxavr = 0;
@@ -119,7 +117,11 @@ public class SimpleSet {
         } else if (method == 2) {
             System.out.println("Tendency of the average value");
             DisplayAverage(numberOfElements);
-            System.out.printf("max: " + set.getMax() + ", min: " + set.getMin() + ", average: " + set.getAverage());
+            double max = Double.parseDouble(String.valueOf(set.getMax()));
+            double min = Double.parseDouble(String.valueOf(set.getMin()));
+            double avr = set.getAverage();
+            System.out.printf("max: %.3f, min: %.3f, average: %f\n", max, min, avr);
+//            System.out.println(max+"\n"+min+"\n"+avr+"\n");
         }
 
     }
